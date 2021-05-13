@@ -1,3 +1,5 @@
+import '../../styles/menu.css';
+
 const menuDisplayController = (() => {
   const menuImg = function() {
     const img = document.createElement('img');

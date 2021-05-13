@@ -2,7 +2,6 @@ import header from './modules/display_controllers/header';
 import home from './modules/display_controllers/home';
 import menu from './modules/display_controllers/menu';
 import contact from './modules/display_controllers/contact';
-import './styles/home.css';
 
 const contentContainer = document.querySelector('#content');
 contentContainer.appendChild(header);

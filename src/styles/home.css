@@ -9,44 +9,6 @@ body {
   background: #333;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  color: #333;
-  background: #fff;
-}
-header h1 {
-  font-size: 26px;
-  text-transform: uppercase;
-  text-decoration: underline #333 4px;
-  letter-spacing: 8px;
-}
-header ul {
-  display: flex;
-  justify-content: space-around;
-  width: 250px;
-  font-weight: 600;
-  list-style: none;
-}
-header li {
-  padding: 5px;
-  cursor: pointer;
-}
-header li:hover {
-  color: #666;
-  text-decoration: underline;
-}
-header #active {
-  color: mediumspringgreen;
-  text-decoration: underline mediumspringgreen;
-}
-header #active:hover {
-  color: #01a767;
-  text-decoration: underline #01a767;
-}
-
 #hero-container {
   position: relative;
 }

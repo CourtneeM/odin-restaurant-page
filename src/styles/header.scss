@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: #333;
+  background: #fff;
+
+  h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: underline #333 4px;
+    letter-spacing: 8px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    font-weight: 600;
+    list-style: none;
+  }
+
+  li {
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+      color: #666;
+      text-decoration: underline;
+    }
+  }
+
+  #active {
+    color: mediumspringgreen;
+    text-decoration: underline mediumspringgreen;
+
+    &:hover {
+      color: rgb(1, 167, 103);
+      text-decoration: underline rgb(1, 167, 103);
+    }
+  }
+}

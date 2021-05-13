@@ -1,3 +1,5 @@
+import '../../styles/header.css';
+
 const headerDisplayController = (() => {
   const headerTitle = function() {
     const restaurantNameElement = document.createElement('h1');

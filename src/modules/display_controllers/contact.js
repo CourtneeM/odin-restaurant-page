@@ -1,3 +1,5 @@
+import '../../styles/contact.css';
+
 const contactDisplayController = (() => {
   const contactTitle = function() {
     const h2 = document.createElement('h2');
