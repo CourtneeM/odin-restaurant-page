@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-contact {
+  min-height: 93.6vh;
+  background: #333;
+  border-top: 1px solid #000;
+
+  h2 {
+    margin: 100px 0 60px;
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    color: #333;
+    background: #ccc;
+    border-radius: 8px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+    }
+
+    label:nth-child(-n+2) {
+      flex-basis: 45%;
+    }
+
+    label:nth-child(3) {
+      flex-basis: 100%;
+    }
+
+    input,
+    textarea {
+      margin: 5px 0 15px;
+      padding: 5px 10px;
+    }
+
+    textarea {
+      font-family: sans-serif;
+      resize: none;
+    }
+
+    button {
+      flex-basis: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      font-weight: 600;
+      color: #fff;
+      background: mediumspringgreen;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+  }
+}
